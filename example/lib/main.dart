@@ -1,4 +1,5 @@
 import 'package:example/animation_player/animation_player.dart';
+import 'package:example/custom_fit/custom_fit_player.dart';
 import 'package:example/custom_orientation_player/custom_orientation_player.dart';
 import 'package:example/feed_player/feed_player.dart';
 
@@ -41,6 +42,7 @@ class _ExamplesState extends State<Examples> {
     {'name': 'Feed player', 'widget': Expanded(child: FeedPlayer())},
     {'name': 'Custom orientation player', 'widget': CustomOrientationPlayer()},
     {'name': 'Landscape player', 'widget': LandscapePlayer()},
+    {'name': 'Custom fit player', 'widget': CustomFitPlayer()},
   ];
 
   int selectedIndex = 0;
