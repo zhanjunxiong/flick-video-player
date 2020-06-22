@@ -1,5 +1,5 @@
 import 'package:example/animation_player/animation_player.dart';
-import 'package:example/custom_fit/custom_fit_player.dart';
+import 'package:example/custom_fit_player/custom_fit_player.dart';
 import 'package:example/custom_orientation_player/custom_orientation_player.dart';
 import 'package:example/feed_player/feed_player.dart';
 
